@@ -1,0 +1,20 @@
+https://www.youtube.com/watch?v=qkbK31dMNfM&list=PLu0W_9lII9agwhy658ZPA0MTStKUJTWPi&index=2
+https://www.youtube.com/watch?v=Cdg2FGDMglk&list=PLu0W_9lII9agwhy658ZPA0MTStKUJTWPi&index=3
+
+git config --global user.name "nitin"
+git config --global user.email "nitinkumartyagi@gmail.com"
+git config --list
+
+Linux editor
+git config --global core.editor emacs
+git config --global core.editor vim
+
+git status
+git init
+git status
+
+
+
+
+git config user.name
+git config user.email
