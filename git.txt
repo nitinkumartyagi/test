@@ -13,7 +13,14 @@ git status
 git init
 git status
 
+git add --a
+git status
 
+git commit -m "initial commit"
+
+git log
+
+git add log.txt
 
 
 git config user.name
