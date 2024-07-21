@@ -27,3 +27,146 @@ git commit -m "git.txt and added better design"
 
 git config user.name
 git config user.email
+
+
+git add --a
+
+
+git commit -m "rewrite myexcel"
+
+git log
+
+for delete git folder below coomand
+rm -rf .git  
+
+git clone https://github.com/tensorflow/tensorflow.git
+
+present working directory
+pwd 
+
+list content
+ls
+
+cd
+
+git status
+git add --a 
+git status
+git commit -m "changes readme"
+git status
+git log
+
+q for exit
+
+
+touch error.log
+touch .gitignore
+
+add error.log in .gitignore
+or
+add *.log
+
+create dir folder
+add dir folder in .gitignore as dir/
+
+create static folder
+create dir folder in static folder
+create new.txt
+
+git status
+it will show nothing
+
+we will create new file in static folder
+git status
+now it will show static is untrack
+
+static/dir
+
+git diff
+compare working directory with statging area
+
+git diff --stage
+compare last commit with staging area
+
+create new second.txt file
+git commit -a -m "Direct commit"
+only for track file
+it will not work on untrack file
+
+git commit -a -m "added static"
+
+git log
+
+q for exit
+
+rename file
+
+git status
+git add .
+git commit - m "rename second to third'
+
+git rm third.txt
+for remove
+
+git status
+git commit - m "remove to third'
+
+git mv first.txt first_renamed.txt
+for rename & stage
+git commit - m "rename'
+
+untrack
+git rm --cached db.accdb
+git status
+
+
+cloning mypanda
+
+git log -p
+
+git log -p-2-3
+
+git log --stat
+show in sort what changes has been done
+
+git log --pretty=1
+git log --pretty=short
+git log --pretty=full
+
+git log --since=2.days
+git log --since=2.weeks
+git log --since=2.months
+git log --since=2.years
+
+git log --pretty.format:git.scm/usefull option for git log
+git log --pretty.format:"$h -- %an"
+
+git restore <file > to discard the change in working directory
+
+git checkout --<filename>
+git checkout --first_rename.txt
+
+git add .gitignore
+
+git checkout -- .gitignore
+git commit -m
+
+git checkout -f ' all change roll back
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
