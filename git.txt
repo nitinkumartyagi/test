@@ -20,7 +20,9 @@ git commit -m "initial commit"
 
 git log
 
-git add log.txt
+git add git.txt
+
+git commit -m "git.txt and added better design"
 
 
 git config user.name
